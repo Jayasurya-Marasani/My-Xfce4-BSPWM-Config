@@ -50,9 +50,9 @@ cp My-Xfce4-BSPWM-Config/sxhkdrc ~/.config/sxhkd/
 ```
 
 5. **Make bspwmrc Executable:**
-   ```
-   chmod +x ~/.config/bspwm/bspwmrc
-   ```
+```
+chmod +x ~/.config/bspwm/bspwmrc
+```
 
 ## Video Walkthrough
 
