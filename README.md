@@ -30,7 +30,7 @@ sudo pacman -Syu
 2. **Install BSPWM and SXHKD and other packages:**
 Use paru or your preferred AUR helper:
 ```bash
-paru -S bspwm sxhkd ttf-inter ttf-jetbrains-mono a-candy-beauty-icon-theme-git xcursor-breeze
+paru -S bspwm sxhkd ttf-inter ttf-jetbrains-mono a-candy-beauty-icon-theme-git xcursor-breeze dracula-gtk-theme
 ``` 
 3. **Clone the Repository:**
 Clone this repository to your local machine:
