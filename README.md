@@ -2,6 +2,8 @@
 
 ## Overview
 This repository hosts configuration files for a desktop environment setup using Xfce4 as the Desktop Manager and BSPWM as the Window Manager. It's tailored for users who appreciate the simplicity of BSPWM along with the functionality of Xfce4.
+![Configuration Preview](https://github.com/Jayasurya-Marasani/My-Xfce4-BSPWM-Config/blob/main/my%20first%20rice.png)
+
 
 ## Getting Started
 
