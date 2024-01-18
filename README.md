@@ -12,9 +12,12 @@ This repository hosts configuration files for a desktop environment setup using 
 - Xfce4 pre-installed. (This was tested on an Arcolinux installation with Xfce4.)
 - `paru` or another AUR helper for installing packages from the Arch User Repository (AUR).
 -  **Fonts Used:**
-      1. [![Inter Font](https://fonts.google.com/specimen/Inter)
-      2. [![JetBrains Mono Font ](https://fonts.google.com/specimen/JetBrains+Mono?query=JetBrain)
+      1. ![Inter Font](https://fonts.google.com/specimen/Inter)
+      2. ![JetBrains Mono Font](https://fonts.google.com/specimen/JetBrains+Mono?query=JetBrain)
+- [Gogh Terminal Themes](https://gogh-co.github.io/Gogh/)
+      - Used Tokyo Night theme
 - 
+
 
 ### Installation
 
@@ -23,11 +26,11 @@ This repository hosts configuration files for a desktop environment setup using 
    ```bash
    sudo pacman -Syu
    ```
-2. **Install BSPWM and SXHKD:**
+2. **Install BSPWM and SXHKD and other packages:**
 Use paru or your preferred AUR helper:
 ```bash
-paru -S bspwm sxhkd
-```
+paru -S bspwm sxhkd ttf-inter ttf-jetbrains-mono a-candy-beauty-icon-theme-git xcursor-breeze
+``` 
 3. **Clone the Repository:**
 Clone this repository to your local machine:
 ```
