@@ -22,10 +22,10 @@ This repository hosts configuration files for a desktop environment setup using 
 ### Installation
 
 1. **Update Your System:**
-   Ensure your system is up-to-date:
-   ```bash
-   sudo pacman -Syu
-   ```
+Ensure your system is up-to-date:
+```bash
+sudo pacman -Syu
+```
 2. **Install BSPWM and SXHKD and other packages:**
 Use paru or your preferred AUR helper:
 ```bash
