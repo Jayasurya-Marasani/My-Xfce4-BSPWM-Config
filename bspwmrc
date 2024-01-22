@@ -1,6 +1,6 @@
 #! /bin/sh
 # Autostart
-Xfce4-panel -d &
+# Xfce4-panel -d &
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 bspc monitor -d I II III IV V VI VII VIII IX
