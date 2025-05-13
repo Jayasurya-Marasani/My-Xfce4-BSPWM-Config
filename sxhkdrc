@@ -8,11 +8,11 @@
 
 # terminal emulator
 super + Return
-    xfce4-terminal
+   alacritty 
 
 # program launcher
 super + @space
-	dmenu_run
+	dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'JetBrains Mono:bold:pixelsize=16'
 
 # whsiker Menu Launcher
 super + d
@@ -44,8 +44,8 @@ super + Escape
 #################################################################
 
 #archlinux-tweak-tool
-ctrl + alt + e
-    archlinux-tweak-tool
+# ctrl + alt + e
+    # archlinux-tweak-tool
 
 #Xfce4-settings-manager
 ctrl + alt + m
@@ -104,7 +104,7 @@ super + alt + {q,r}
 	bspc {quit,wm -r}
 
 # close and kill
-super + {_,shift + }w
+super + {_,shift + }q
 	bspc node -{c,k}
 
 # alternate between the tiled and monocle layout
