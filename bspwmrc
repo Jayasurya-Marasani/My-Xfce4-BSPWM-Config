@@ -1,9 +1,19 @@
 #! /bin/sh
 # Autostart
-# Xfce4-panel -d &
+#Xfce4-panel &
+nm-applet &
+sxhkd &
+xfdesktop &
 
 pgrep -x sxhkd > /dev/null || sxhkd &
-bspc monitor -d I II III IV V VI VII VIII IX
+# bspc monitor -d I II III IV V VI VII VIII IX
+bspc monitor -d "  1  " "  2  " "  3  " "  4  " "  5  " "  6  " "  7  " "  8  " "  9  "
+# bspc monitor -d " 1  " " 2  " " 3  " " 4  " " 5  " " 6  " " 7  " " 8  " " 9  "
+
+# bspc monitor -d web code term files media chat games misc sys
+# bspc monitor -d           
+# bspc monitor -d "  " "  " "  " "  " "  " "  " "  " "  " "  "
+
 xsetroot -cursor_name left_ptr &
 
 bspc config top_padding          28
@@ -31,3 +41,5 @@ bspc rule -a Xfce4-popup-whiskermenu state=floating border=off
 bspc rule -a Whisker\ Menu state=floating border=off
 bspc rule -a Wrapper-2.0 state=floating border=off focus=on
 sleep 5 && xprop -name "Whisker Menu"
+
+
